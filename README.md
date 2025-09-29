@@ -40,6 +40,43 @@ In C++, a Stack is a linear data structure that follows the LIFO (Last-In-First-
 
 -Forms the basis for advanced applications like Undo mechanisms, syntax parsing, and memory management.
 
+
+# Implement the Stack Operations: Push and Pop:
+
+This program demonstrates how to implement a stack data structure using an array. It supports standard stack operations like push, pop, and display. Overflow and underflow conditions are handled gracefully.
+
+ALGORITHM:
+
+1> Start
+
+2> Define Stack class with:
+
+* Private members: arr[MAX] and top
+
+* Public methods:
+
+push(value) : Add element to top of stack, check for overflow
+
+pop() : Remove element from top, check for underflow
+
+display() : Display all elements from top to bottom
+
+3> In main function
+
+* Create Stack object s
+
+* Push elements 10, 20, 30
+
+* Display stack
+
+* Pop element and display stack after each pop
+
+* Attempt pop on empty stack to check underflow
+
+4> End
+
+
+
 # Conclusion:
 
 Stack implementation in C++ demonstrates how data can be managed in LIFO order. It allows efficient handling of operations where the most recent element needs to be accessed first. While simple stacks may have limitations like overflow and underflow, dynamic and STL-based implementations provide flexible and efficient solutions for real-world applications.
